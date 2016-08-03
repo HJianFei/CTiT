@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">智能防盗</string>
+    <string name="server">Server</string>
+    <string name="port">Port</string>
+    <string name="connect">Connect</string>
+
+    <string name="newConnection">新建连接</string>
+    <string name="newConnectionShort">+</string>
+
+    <string name="title_activity_new_connection">新建连接</string>
+    <string name="clientID">连接ID</string>
+    <string name="connectedto">成功连接:  </string>
+
+    <string name="Disconnect">断开连接</string>
+    <string name="subscribe">订阅</string>
+    <string name="publish">推送</string>
+    <string name="title_activity_subscribe">订阅</string>
+    <string name="disconnected">断开连接:</string>
+    <string name="topic">主题</string>
+    <string name="history">历史记录</string>
+    <string name="title_activity_history">历史记录</string>
+    <string name="subscribed">成功订阅:  </string>
+    <string name="token">org.eclipse.paho.android.service.sample.ClientConnections</string>
+    <string name="no_status">未知连接状态: </string>
+    <string name="connecting">正在连接: </string>
+    <string name="disconnecting">正在断开连接: </string>
+    <string name="connectionError">连接错误: </string>
+
+    <string name="title_activity_publish">推送</string>
+    <string name="message">消息</string>
+    <string name="qos0">0</string>
+    <string name="qos1">1</string>
+    <string name="qos2">2</string>
+    <string name="empty"></string>
+    <string name="qos">订阅级别</string>
+
+    <string name="notifyTitle">有货物被盗了</string>
+    <string name="notifyTitle_connectionLost">连接中断</string>
+
+    <string name="missingOptions">客户名称 or 服务器IP or 端口号不能为空</string>
+
+    <string name='dateFormat'>dd-MM-yy \'at\' HH:mm:ss</string>
+    <string name="unkown_error">未知错误</string>
+    <string name="delete">删除连接</string>
+    <string name="disconnectClient">删除连接</string>
+    <string name="deleteDialog">当前处于连接状态,是否删除此连接？</string>
+    <string name="continueBtn">确定</string>
+    <string name="cancelBtn">取消</string>
+
+    <!-- Strings that need formatting  -->
+    <string name="timestamp">&lt;br/&gt; &lt;small&gt; %1$s &lt;/small&gt;</string>
+    <string name="notification">%1$s 接收到消息: %2$s</string>
+    <string name="toast_pub_success">Published message: %1$s to topic: %2$s</string>
+    <string name="toast_sub_success">成功订阅: %1$s</string>
+    <string name="toast_disconnected">断开连接!</string>
+    <string name="toast_pub_failed">推送信息失败: %1$s to topic: %2$s</string>
+    <string name="toast_sub_failed">订阅 %1$s 失败</string>
+    <string name="connection_lost">%1$s 失去连接: %2$s</string>
+    <string name="failure_disconnect">Disconnect failed.&lt;br/&gt; &lt;small&gt;Reason: %s&lt;/small&gt; </string>
+    <string name="failure_connect">Client failed to connect.&lt;br/&gt; &lt;small&gt;Reason: %s&lt;/small&gt;</string>
+    <string name="client_connected">Client connected successfully</string>
+
+    <!-- Hints -->
+    <string name="serverURIHint">example.example.com</string>
+    <string name="portHint">1883</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
